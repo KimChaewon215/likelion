@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <!--페이지 제목-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="hw1.css"/>
+        <title>에어비앤비 클론코딩</title>
+</head>
+<body>
+    <header>
+        <!--전체 제목 및 설명-->
+        <h1>서울의 인기 급상승 숙소</h1>
+        <h3>에어비앤비에서 많은 관심을 받고 있으며 평점이 높은 숙소입니다.</h3>
+    </header>
+    <main>
+        <section>
+            <!-- 네 개의 사진들을 container로 묶어서 정렬 -->
+            <div class="container">
+                <div class="image-item">
+                    <img src="./1.png" alt="숙소 1">
+                    <p class="image-desc">광진구의 집  　　　　　　　 　 　 ★ 4.87(336)<br/>
+                    <span class="grey">유목[流木] 나무처럼 쉬고 싶다<br/>
+                    지난주 463회 조회됨<br/> 4월 13일~18일</span><br/>
+                    </p>   
+                    <p><span id="price-1" class="bold">₩71,438</span> /박 ·<span class="grey">총액 ₩357,188</span></p>
+                </div>
+                <div class="image-item">
+                    <img src="./2.png" alt="숙소 2">
+                    <p class="image-desc">서울의 집 　　　　　　　　 　 　 　 ★ 5.0(44)<br/>
+                        <span class="grey">Stay Cocooner / 서촌<br/>
+                        지난주 337회 조회됨<br/> 5월 6일~11일</span><br/></p>
+                    <p><span class="bold">₩147,668</span> /박 ·<span class="grey">총액 ₩738,342</span></p>
+                    <div class="guest">게스트 선호</div>
+                </div>
+                <div class="image-item">
+                    <img src="./3.png" alt="숙소 3">
+                    <p class="image-desc">서울의 집  　 　　　　　　　　 　 　 ★ 4.89(38)<br/>
+                        <span class="grey">종로독채한옥 '스테이희와'Premium Hanok...<br/>
+                        지난주 666회 조회됨<br/> 6월 15일~20일</span><br/></p>   
+                    <p><span class="bold">₩353,537</span> /박 ·<span class="grey">총액 ₩1,767,683</span></p>
+                    <div class="guest">게스트 선호</div>
+                </div>
+                <div class="image-item">
+                    <img src="./4.png" alt="숙소 4">
+                    <p class="image-desc">서울의 아파트 　　　　　　　　 　 ★ 4.96(92)<br/>
+                        <span class="grey">#2[장박환영]청소비x석촌호수 뷰 감성+따뜻하고...<br/>
+                        지난주 299회 조회됨<br/> 4월 20일~25일</span><br/></p>
+                    <p><span class="bold">₩138,082</span> /박 ·<span class="grey">총액 ₩690,412</span></p>
+                    <div class="guest">게스트 선호</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!--더 찾아보기 버튼과 -, + 버튼들은 모두 footer로 묶어두었습니다.-->
+    <footer>
+        <button>더 찾아보기</button>
+        <button id="decrease-1" class="button-additional">-</button>
+        <button id="increase-1" class="button-additional">+</button>
+    </footer>
+    <script src="hw1.js"></script>
+</body>
+</html>
