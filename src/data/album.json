@@ -1,0 +1,36 @@
+[{
+    "albumImage": "/src/assets/rebel-heart.jpeg",
+    "releaseDate": "2025-01-13",
+    "artist": "IVE",
+    "title": "REBEL HEART",
+    "lyricist": "Nietzsche",
+    "composer": "Emily Harbakk"
+  },
+
+  {
+    "albumImage": "/src/assets/whiplash.jpg",
+    "releaseDate": "2024-10-21",
+    "artist": "Aespa",
+    "title": "Whiplash",
+    "lyricist": "Leslie",
+    "composer": "MarcLo"
+  },
+
+  {
+    "albumImage": "/src/assets/Ruby.jpg",
+    "releaseDate": "2025-03-07",
+    "artist": "Jennie",
+    "title": "Like Jennie",
+    "lyricist": "Jennie",
+    "composer": "Jennie"
+  },
+
+  {
+    "albumImage": "/src/assets/drowning.jpg",
+    "releaseDate": "2023-04-26",
+    "artist": "WOODZ",
+    "title": "Journey",
+    "lyricist": "WOODZ",
+    "composer": "WOODZ"
+  }
+]
