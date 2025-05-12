@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@layer base {
+  /* body 기본 여백 리셋하고 배경도 검은색으로 */
+  body {
+    margin: 0;
+    @apply bg-black;
+  }
+}
